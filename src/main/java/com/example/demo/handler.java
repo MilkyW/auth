@@ -13,6 +13,7 @@ import java.io.ByteArrayInputStream;
 
 @RestController
 public class handler {
+
     @RequestMapping("/RandomWritter")
     public @ResponseBody
     String rw(
