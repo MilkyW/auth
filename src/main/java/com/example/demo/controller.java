@@ -16,16 +16,6 @@ public class controller
         return "index";
     }
 
-    @RequestMapping(value="/user")
-    public String userindex0(){
-        return "user/index";
-    }
-
-    @RequestMapping(value="/user/index")
-    public String userindex1(){
-        return "user/index";
-    }
-
     @RequestMapping(value="/login")
     public String login(){
         return "login";
